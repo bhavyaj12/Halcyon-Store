@@ -110,7 +110,6 @@
     left: var(--size-1-5);
 }
 
-
 @media screen and (max-width: 1125px) {
 
     .store-nav ul li.search-bar {
