@@ -1,9 +1,3 @@
-:root {
-    --search-bg: #f2f2f2;
-    --search-border: rgb(148, 146, 146);
-    --nav-bg: #F5E5F2;
-}
-
 #header {
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
 }
