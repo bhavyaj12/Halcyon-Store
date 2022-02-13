@@ -1,5 +1,9 @@
 #header {
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.06);
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+    position: sticky;
 }
 
 .store-nav-bar {
@@ -90,6 +94,14 @@
 }
 
 .store-nav-bar .store-nav .store-nav-links li .button.active {
+    color: var(--cta-color);
+}
+
+.store-nav-bar .store-nav .store-nav-links li .button.button-link:hover {
+    color: var(--font-color);
+}
+
+.store-nav-bar .store-nav .store-nav-links li .button.button-link.active:hover {
     color: var(--cta-color);
 }
 
