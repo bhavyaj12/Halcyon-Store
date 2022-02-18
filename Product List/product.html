@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/product.css">
-    <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="https://halcyon-ui.netlify.app/halcyon.css">
-    <title>Shop Now</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/filter.css">
+    <link rel="stylesheet" href="../css/product.css">
+
+
+    <title>Shop skincare for happy skin | Halcyon Skin Store</title>
 </head>
+
 <body>
+    <!-- Navigation Top -->
     <section id="header">
         <nav class="store-nav-bar">
             <div class="store-logo-box">
@@ -18,7 +24,7 @@
             <div class="store-nav">
                 <ul class="store-nav-links ul-no-decor display-flex">
                     <li class="search-bar">
-                        <input type="search" placeholder="Search">
+                        <input type="search" placeholder="Search our skincare store ">
                         <label class="search-bar-icon">
                             <span class="fas fa-search"></span>
                         </label>
@@ -42,5 +48,521 @@
             </div>
         </nav>
     </section>
+
+    <!-- Filters -->
+    <main class="products-filters-page">
+        <section id="filters">
+            <aside class="filter-container">
+                <div class="heading-filter pt-8">
+                    <p class="txt-normal">Filters</p>
+                    <button class="filter-clear-btn button button-primary button-link">Clear</button>
+                </div>
+
+                <!-- Price Filter -->
+                <div class="filter-type-container">
+                    <p class="filter-name txt-normal">Price</p>
+                    <div class="filter-content">
+                        <label for="price-slider">₹100 - ₹5000</label>
+                        <input type="range" id="price-slider" min="100" max="5000" value="500" />
+                    </div>
+                </div>
+
+                <!-- Category Filter -->
+                <div class="filter-type-container">
+                    <p class="filter-name txt-normal">Category</p>
+                    <div class="filter-content">
+                        <input type="checkbox" id="cat1" />
+                        <label for="cat1">Cat1</label>
+                    </div>
+                    <div class="filter-content">
+                        <input type="checkbox" id="cat2" />
+                        <label for="cat1">Cat2</label>
+                    </div>
+                    <div class="filter-content">
+                        <input type="checkbox" id="cat3" />
+                        <label for="cat1">Cat3</label>
+                    </div>
+                    <div class="filter-content">
+                        <input type="checkbox" id="cat4" />
+                        <label for="cat1">Cat4</label>
+                    </div>
+                    <div class="filter-content">
+                        <input type="checkbox" id="cat5" />
+                        <label for="cat1">Cat5</label>
+                    </div>
+                </div>
+
+                <!-- Rating filter -->
+                <div class="filter-type-container">
+                    <p class="filter-name txt-normal">Avg. Customer Rating</p>
+                    <div class="filter-content">
+                        <input type="radio" name="filter-rating-star" />
+                        <label for="filter-star-four">
+                            <div class="ratings-container">
+                                <div class="stars-container">
+                                    <input type="checkbox" id="star-1" checked disabled />
+                                    <label for="star-1" class="fas fa-star"></label>
+                                    <input type="checkbox" id="star-2" checked disabled />
+                                    <label for="star-2" class="fas fa-star"></label>
+                                    <input type="checkbox" id="star-3" checked disabled />
+                                    <label for="star-3" class="fas fa-star"></label>
+                                    <input type="checkbox" id="star-4" checked disabled />
+                                    <label for="star-4" class="fas fa-star"></label>
+                                    <input type="checkbox" id="star-5" disabled />
+                                    <label for="star-5" class="fas fa-star"></label>
+                                </div>
+                            </div>
+                            & Up
+                        </label>
+                    </div>
+                    <div class="filter-content">
+                        <input type="radio" name="filter-rating-star" />
+                        <label for="filter-star-three">
+                            <div class="ratings-container">
+                                <div class="stars-container">
+                                    <input type="checkbox" id="star-1" checked disabled />
+                                    <label for="star-1" class="fas fa-star"></label>
+                                    <input type="checkbox" id="star-2" checked disabled />
+                                    <label for="star-2" class="fas fa-star"></label>
+                                    <input type="checkbox" id="star-3" checked disabled />
+                                    <label for="star-3" class="fas fa-star"></label>
+                                    <input type="checkbox" id="star-4" disabled />
+                                    <label for="star-4" class="fas fa-star"></label>
+                                    <input type="checkbox" id="star-5" disabled />
+                                    <label for="star-5" class="fas fa-star"></label>
+                                </div>
+                            </div>
+                            & Up
+                        </label>
+                    </div>
+                    <div class="filter-content">
+                        <input type="radio" name="filter-rating-star" />
+                        <label for="filter-star-two">
+                            <div class="ratings-container">
+                                <div class="stars-container">
+                                    <input type="checkbox" id="star-1" checked disabled />
+                                    <label for="star-1" class="fas fa-star"></label>
+                                    <input type="checkbox" id="star-2" checked disabled />
+                                    <label for="star-2" class="fas fa-star"></label>
+                                    <input type="checkbox" id="star-3" disabled />
+                                    <label for="star-3" class="fas fa-star"></label>
+                                    <input type="checkbox" id="star-4" disabled />
+                                    <label for="star-4" class="fas fa-star"></label>
+                                    <input type="checkbox" id="star-5" disabled />
+                                    <label for="star-5" class="fas fa-star"></label>
+                                </div>
+                            </div>
+                            & Up
+                        </label>
+                    </div>
+                    <div class="filter-content">
+                        <input type="radio" name="filter-rating-star" />
+                        <label for="filter-star-one">
+                            <div class="ratings-container">
+                                <div class="stars-container">
+                                    <input type="checkbox" id="star-1" checked disabled />
+                                    <label for="star-1" class="fas fa-star"></label>
+                                    <input type="checkbox" id="star-2" disabled />
+                                    <label for="star-2" class="fas fa-star"></label>
+                                    <input type="checkbox" id="star-3" disabled />
+                                    <label for="star-3" class="fas fa-star"></label>
+                                    <input type="checkbox" id="star-4" disabled />
+                                    <label for="star-4" class="fas fa-star"></label>
+                                    <input type="checkbox" id="star-5" disabled />
+                                    <label for="star-5" class="fas fa-star"></label>
+                                </div>
+                            </div>
+                            & Up
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Price Sort Filter -->
+                <div class="filter-type-container">
+                    <p class="filter-name txt-normal">Sort By</p>
+                    <div class="filter-content">
+                        <input type="radio" id="low-to-high" name="sort-by" />
+                        <label for="low-to-high">Price - Low to High</label>
+                    </div>
+                    <div class="filter-content">
+                        <input type="radio" id="high-to-low" name="sort-by" />
+                        <label for="high-to-low">Price - High to Low</label>
+                    </div>
+                    <div class="filter-content">
+                        <input type="radio" id="high-to-low" name="sort-by" />
+                        <label for="high-to-low">Rating - High to Low</label>
+                    </div>
+            </aside>
+        </section>
+
+        <!-- Product Listing -->
+        <section class="products-container">
+            <div class="card card-vertical card-shadow ">
+                <div class="p-3">
+                    <img src="/assets/Card Cover.jpg" alt="Purple Soap" class="img-responsive vt-card-img">
+                </div>
+                <div class="vt-card-text p-3">
+                    <h2>Amethyst Geode Loaf Soap</h2>
+                    <p class="card-brand-name my-4">The Sass Bar</p>
+                    <span class="rating d-inline">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                        <span class="text-small">| (213 reviews)</span>
+                    </span>
+                    <div class="pt-3 card-price">
+                        <span class="d-inline txt-bold">₹ 290.00</span>
+                        <span class="txt-small ml-2 d-inline">
+                            <strike>
+                                ₹ 400.00
+                            </strike>
+                        </span>
+                        <span class="discount ml-2 txt-small txt-bold">( 27% OFF )</span>
+                    </div>
+                    <div class="card-vt-btn mt-5 ">
+                        <a href="#" class="button button-primary button-text-icon ">
+                            <span>
+                                <i class="fas fa-shopping-cart"></i>
+                            </span> Add to Cart
+                        </a>
+                        <a href="#" class="button btn-outline button-secondary ">
+                            <span>
+                                <i class="far fa-heart"></i></span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card card-vertical card-shadow ">
+                <div class="p-3">
+                    <img src="/assets/Card Cover.jpg" alt="Purple Soap" class="img-responsive vt-card-img">
+                </div>
+                <div class="vt-card-text p-3">
+                    <h2>Amethyst Geode Loaf Soap</h2>
+                    <p class="card-brand-name my-4">The Sass Bar</p>
+                    <span class="rating d-inline">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                        <span class="text-small">| (213 reviews)</span>
+                    </span>
+                    <div class="pt-3 card-price">
+                        <span class="d-inline txt-bold">₹ 290.00</span>
+                        <span class="txt-small ml-2 d-inline">
+                            <strike>
+                                ₹ 400.00
+                            </strike>
+                        </span>
+                        <span class="discount ml-2 txt-small txt-bold">( 27% OFF )</span>
+                    </div>
+                    <div class="card-vt-btn mt-5 ">
+                        <a href="#" class="button button-primary button-text-icon ">
+                            <span>
+                                <i class="fas fa-shopping-cart"></i>
+                            </span> Add to Cart
+                        </a>
+                        <a href="#" class="button btn-outline button-secondary ">
+                            <span>
+                                <i class="far fa-heart"></i>
+                            </span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card card-vertical card-shadow ">
+                <div class="p-3">
+                    <img src="/assets/Card Cover1.jpg" alt="Purple Soap" class="img-responsive vt-card-img">
+                </div>
+                <div class="vt-card-text p-3">
+                    <h2>Balancium Ceramide Cream</h2>
+                    <p class="card-brand-name my-4">COSRX</p>
+                    <span class="rating d-inline">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                        <span class="text-small">| (1649 reviews)</span>
+                    </span>
+                    <div class="pt-3 card-price">
+                        <span class="d-inline txt-bold">₹ 1560.00</span>
+                        <span class="txt-small ml-2 d-inline">
+                            <strike>
+                                ₹ 1900.00
+                            </strike>
+                        </span>
+                        <span class="discount ml-2 txt-small txt-bold">( 27% OFF )</span>
+                    </div>
+                    <div class="card-vt-btn mt-5 ">
+                        <a href="#" class="button button-primary button-text-icon ">
+                            <span>
+                                <i class="fas fa-shopping-cart"></i>
+                            </span> Add to Cart
+                        </a>
+                        <a href="#" class="button btn-outline button-secondary ">
+                            <span>
+                                <i class="far fa-heart"></i></span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card card-vertical card-shadow pos-relative">
+                <div class="overlay-container">
+                    <div class="p-3 img-badge-container">
+                        <span class="vt-card-badge txt-small p-3">Best Seller
+                        </span>
+                        <img src="/assets/Card Cover.jpg" alt="Purple Soap" class="img-responsive vt-card-img">
+                    </div>
+                    <div class="vt-card-text p-3">
+                        <h2>Amethyst Geode Loaf Soap</h2>
+ card-brand-name                        <p class="my-2">The Sass Bar</p>
+                        <span class="rating d-inline">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                            <span class="text-small">| (213 reviews)</span>
+                        </span>
+                        <div class="pt-3 card-price">
+                            <span class="d-inline txt-bold">₹ 290.00</span>
+                            <span class="txt-small ml-2 d-inline">
+                                <strike>
+                                    ₹ 400.00
+                                </strike>
+                            </span>
+                            <span class="discount ml-2 txt-small txt-bold">( 27% OFF )</span>
+                        </div>
+                        <div class="card-vt-btn mt-5 ">
+                            <a href="#" class="button button-primary button-text-icon ">
+                                <span>
+                                    <i class="fas fa-shopping-cart"></i>
+                                </span> Add to Cart
+                            </a>
+                            <a href="#" class="button btn-outline button-secondary ">
+                                <span>
+                                    <i class="far fa-heart"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <span class="text-overlay txt-medium p-5">Out of Stock</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-vertical card-shadow ">
+                <div class="p-3">
+                    <img src="/assets/Card Cover.jpg" alt="Purple Soap" class="img-responsive vt-card-img">
+                </div>
+                <div class="vt-card-text p-3">
+                    <h2>Amethyst Geode Loaf Soap</h2>
+                    <p class="card-brand-name my-4">The Sass Bar</p>
+                    <span class="rating d-inline">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                        <span class="text-small">| (213 reviews)</span>
+                    </span>
+                    <div class="pt-3 card-price">
+                        <span class="d-inline txt-bold">₹ 290.00</span>
+                        <span class="txt-small ml-2 d-inline">
+                            <strike>
+                                ₹ 400.00
+                            </strike>
+                        </span>
+                        <span class="discount ml-2 txt-small txt-bold">( 27% OFF )</span>
+                    </div>
+                    <div class="card-vt-btn mt-5 ">
+                        <a href="#" class="button button-primary button-text-icon ">
+                            <span>
+                                <i class="fas fa-shopping-cart"></i>
+                            </span> Add to Cart
+                        </a>
+                        <a href="#" class="button btn-outline button-secondary ">
+                            <span>
+                                <i class="far fa-heart"></i>
+                            </span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card card-vertical card-shadow ">
+                <div class="p-3">
+                    <img src="/assets/Card Cover.jpg" alt="Purple Soap" class="img-responsive vt-card-img">
+                </div>
+                <div class="vt-card-text p-3">
+                    <h2>Amethyst Geode Loaf Soap</h2>
+                    <p class="card-brand-name my-4">The Sass Bar</p>
+                    <span class="rating d-inline">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                        <span class="text-small">| (213 reviews)</span>
+                    </span>
+                    <div class="pt-3 card-price">
+                        <span class="d-inline txt-bold">₹ 290.00</span>
+                        <span class="txt-small ml-2 d-inline">
+                            <strike>
+                                ₹ 400.00
+                            </strike>
+                        </span>
+                        <span class="discount ml-2 txt-small txt-bold">( 27% OFF )</span>
+                    </div>
+                    <div class="card-vt-btn mt-5 ">
+                        <a href="#" class="button button-primary button-text-icon ">
+                            <span>
+                                <i class="fas fa-shopping-cart"></i>
+                            </span> Add to Cart
+                        </a>
+                        <a href="#" class="button btn-outline button-secondary ">
+                            <span>
+                                <i class="far fa-heart"></i>
+                            </span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card card-vertical card-shadow ">
+                <div class="p-3">
+                    <img src="/assets/Card Cover.jpg" alt="Purple Soap" class="img-responsive vt-card-img">
+                </div>
+                <div class="vt-card-text p-3">
+                    <h2>Amethyst Geode Loaf Soap</h2>
+                    <p class="card-brand-name my-4">The Sass Bar</p>
+                    <span class="rating d-inline">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                        <span class="text-small">| (213 reviews)</span>
+                    </span>
+                    <div class="pt-3 card-price">
+                        <span class="d-inline txt-bold">₹ 290.00</span>
+                        <span class="txt-small ml-2 d-inline">
+                            <strike>
+                                ₹ 400.00
+                            </strike>
+                        </span>
+                        <span class="discount ml-2 txt-small txt-bold">( 27% OFF )</span>
+                    </div>
+                    <div class="card-vt-btn mt-5 ">
+                        <a href="#" class="button button-primary button-text-icon ">
+                            <span>
+                                <i class="fas fa-shopping-cart"></i>
+                            </span> Add to Cart
+                        </a>
+                        <a href="#" class="button btn-outline button-secondary ">
+                            <span>
+                                <i class="far fa-heart"></i>
+                            </span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card card-vertical card-shadow ">
+                <div class=" p-3 img-badge-container">
+                    <span class="vt-card-badge txt-small p-3">Best Seller
+                    </span>
+                    <img src="/assets/Card Cover.jpg" alt="Purple Soap" class="img-responsive vt-card-img">
+                </div>
+                <div class="vt-card-text p-3">
+                    <h2>Amethyst Geode Loaf Soap</h2>
+                    <p class="card-brand-name my-4">The Sass Bar</p>
+                    <span class="rating d-inline">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                        <span class="text-small">| (213 reviews)</span>
+                    </span>
+                    <div class="pt-3 card-price">
+                        <span class="d-inline txt-bold">₹ 290.00</span>
+                        <span class="txt-small ml-2 d-inline">
+                            <strike>
+                                ₹ 400.00
+                            </strike>
+                        </span>
+                        <span class="discount ml-2 txt-small txt-bold">( 27% OFF )</span>
+                    </div>
+                    <div class="card-vt-btn mt-5 ">
+                        <a href="#" class="button button-primary button-text-icon ">
+                            <span>
+                                <i class="fas fa-shopping-cart"></i>
+                            </span> Add to Cart
+                        </a>
+                        <a href="#" class="button btn-outline button-secondary ">
+                            <span>
+                                <i class="far fa-heart"></i>
+                            </span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card card-vertical card-shadow ">
+                <div class="p-3">
+                    <img src="/assets/Card Cover.jpg" alt="Purple Soap" class="img-responsive vt-card-img">
+                </div>
+                <div class="vt-card-text p-3">
+                    <h2>Amethyst Geode Loaf Soap</h2>
+                    <p class="card-brand-name my-4">The Sass Bar</p>
+                    <span class="rating d-inline">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                        <span class="text-small">| (213 reviews)</span>
+                    </span>
+                    <div class="pt-3 card-price">
+                        <span class="d-inline txt-bold">₹ 290.00</span>
+                        <span class="txt-small ml-2 d-inline">
+                            <strike>
+                                ₹ 400.00
+                            </strike>
+                        </span>
+                        <span class="discount ml-2 txt-small txt-bold">( 27% OFF )</span>
+                    </div>
+                    <div class="card-vt-btn mt-5 ">
+                        <a href="#" class="button button-primary button-text-icon ">
+                            <span>
+                                <i class="fas fa-shopping-cart"></i>
+                            </span> Add to Cart
+                        </a>
+                        <a href="#" class="button btn-outline button-secondary ">
+                            <span>
+                                <i class="far fa-heart"></i>
+                            </span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+
 </body>
+
 </html>
