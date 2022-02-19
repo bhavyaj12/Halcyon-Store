@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, E-Commerce, Skincare" />
+    <meta name="description" content="Skincare E-commerce application made using Halcyon Component Library." />
+    <meta name="author" content="Bhavya Joshi" />
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://halcyon-ui.netlify.app/halcyon.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Login | Halcyon Skin Store</title>
+</head>
+
+<body>
+    <!-- Navigation Top -->
+    <section id="header">
+        <nav class="store-nav-bar">
+            <div class="store-logo-box">
+                <a href="./"><img src="/assets/HalcyonStoreLogo.png" alt="logo" class="store-logo"></a>
+            </div>
+            <div class="store-nav">
+                <ul class="store-nav-links ul-no-decor display-flex">
+                    <li class="search-bar">
+                        <input type="search" placeholder="Search our skincare store ">
+                        <label class="search-bar-icon">
+                            <span class="fas fa-search"></span>
+                        </label>
+                    </li>
+                    <li><a href="" class="button button-primary button-link active">Home</a></li>
+                    <li><a href="" class="button button-primary button-link">Shop Now</a></li>
+                    <li><a href="" class="button button-primary button-link"><i class="fas fa-user"></i>Account</a></li>
+                    <li><a href="">
+                            <div class="badge mx-4 ">
+                                <i class="fas fa-heart"></i>
+                                <div class="badge-no">0</div>
+                            </div>
+                        </a></li>
+                    <li><a href="">
+                            <div class="badge mx-4 ">
+                                <i class="fas fa-shopping-cart"></i>
+                                <div class="badge-no">0</div>
+                            </div>
+                        </a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <main class="form-container flex-col">
+        <h4 class="h4">LOGIN</h4>
+        <form action="" class="flex-col">
+            <input type="email" class="input-field my-5" placeholder="Enter your email here" required>
+            <div class="my-5 hide-pswrd">
+                <input type="password" class="input-field" placeholder="Enter password" required maxlength="20"
+                    minlength="6">
+                <span><i class="fa fa-eye-slash"></i></span>
+            </div>
+            <button class="button button-primary btn-solid login-btn">Login</button>
+            <div class="signup-msg my-5">Not a user yet?
+                <a href="../Authentication/signup.html" class="button button-primary button-link">
+                    Create an account here</a>.
+            </div>
+        </form>
+
+
+
+    </main>
+</body>
+
+</html>
