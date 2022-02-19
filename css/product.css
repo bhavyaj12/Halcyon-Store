@@ -1,6 +1,6 @@
 .products-filters-page {
     display: grid;
-    grid-gap: 20px;
+    grid-column-gap: var(--size-3);
     grid-template-columns: 300px 1fr;
     grid-template-areas: 
     "header header header"
@@ -54,13 +54,19 @@ main {
     min-width: 30%;
     width: 60%;
     font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
 }
 
 .products-container .card.card-vertical .card-vt-btn .button.button-secondary{
     min-width: 10%;
     width: 20%;
-    text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    height: 100%;
+}
+
+.products-container .card.card-vertical .card-vt-btn .button .fas, .products-container .card.card-vertical .card-vt-btn .button .fab, .products-container .card.card-vertical .card-vt-btn .button .far {
+    margin: 0;
 }
 
 
@@ -68,4 +74,6 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     padding-top: var(--size-3);
+    grid-column-gap: var(--size-1);
+    grid-row-gap: var(--size-1);
 }
