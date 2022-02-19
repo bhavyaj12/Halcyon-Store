@@ -1,5 +1,9 @@
 #header {
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.06);
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+    position: sticky;
 }
 
 .store-nav-bar {
@@ -11,7 +15,7 @@
 }
 
 .store-logo {
-    max-width: 9rem;
+    max-width: 10rem;
 }
 
 .display-flex {
@@ -66,9 +70,9 @@
     background-color: var(--cta-color);
     min-width: var(--size-1);
     min-height: var(--size-1);
-    height: 20px;
-    width: 15px;
-    left: 0.6rem;
+    height: 16px;
+    width: 16px;
+    left: 0.4rem;
     font-size: 0.7rem;
     display: flex;
     justify-content: center;
@@ -90,6 +94,14 @@
 }
 
 .store-nav-bar .store-nav .store-nav-links li .button.active {
+    color: var(--cta-color);
+}
+
+.store-nav-bar .store-nav .store-nav-links li .button.button-link:hover {
+    color: var(--font-color);
+}
+
+.store-nav-bar .store-nav .store-nav-links li .button.button-link.active:hover {
     color: var(--cta-color);
 }
 
