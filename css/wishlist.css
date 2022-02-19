@@ -30,12 +30,12 @@
     font-weight: 300;
 }
 
-.wishlist-container .card.card-vertical .card-vt-btn {  
+.wishlist-container .card.card-vertical .card-vt-btn {
     display: flex;
     justify-content: space-around;
 }
 
-.wishlist-container .card.card-vertical .card-vt-btn .button.button-primary{
+.wishlist-container .card.card-vertical .card-vt-btn .button.button-primary {
     min-width: 30%;
     width: 60%;
     font-size: 1.2rem;
@@ -43,14 +43,16 @@
     justify-content: center;
 }
 
-.wishlist-container .card.card-vertical .card-vt-btn .button.button-secondary{
+.wishlist-container .card.card-vertical .card-vt-btn .button.button-secondary {
     min-width: 10%;
     width: 20%;
     font-size: 1.2rem;
     height: 100%;
 }
 
-.wishlist-container .card.card-vertical .card-vt-btn .button .fas, .wishlist-container .card.card-vertical .card-vt-btn .button .fab, .wishlist-container .card.card-vertical .card-vt-btn .button .far {
+.wishlist-container .card.card-vertical .card-vt-btn .button .fas,
+.wishlist-container .card.card-vertical .card-vt-btn .button .fab,
+.wishlist-container .card.card-vertical .card-vt-btn .button .far {
     margin: 0;
 }
 
@@ -61,7 +63,7 @@
     border: 1px solid var(--grey-border);
 }
 
-.wishlist-container .card.card-vertical .rating .fas{
+.wishlist-container .card.card-vertical .rating .fas {
     opacity: 0.7;
 }
 
