@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="https://halcyon-ui.netlify.app/halcyon.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/login.css">
-    <title>Login | Halcyon Skin Store</title>
+    <link rel="stylesheet" href="../css/logout.css">
+    <title>Account | Halcyon Skin Store</title>
 </head>
 
 <body>
@@ -49,32 +50,12 @@
             </div>
         </nav>
     </section>
-    <!-- Login Form -->
+
     <main class="form-container flex-col">
-        <h4 class="h4">LOGIN</h4>
+        <h4 class="h4">ACCOUNT</h4>
         <form action="" class="flex-col">
-            <input type="email" class="input-field my-5" placeholder="Enter your email here" required>
-            <div class="my-5 hide-pswrd">
-                <input type="password" class="input-field" placeholder="Enter password" required maxlength="20"
-                    minlength="6">
-                <span><i class="fa fa-eye-slash"></i></span>
-            </div>
-            <div class="forgot-pwd-row my-5">
-                <div class="remember-chkbox">
-                    <input type="checkbox" name="remember-me" id="remember-me">
-                    <label for="remember-me" class="mx-2">Remember Me</label>
-                </div>
-                <a href="" class="button button-primary button-link">
-                    Forgot Password?</a>
-            </div>
-            <button class="button button-primary btn-solid login-btn">Login</button>
-            <div class="signup-msg my-5">Not a user yet?
-                <a href="../Authentication/signup.html" class="button button-primary button-link">
-                    Create an account here</a>.
-            </div>
-            <div class="signup-msg my-5">
-                <a href="../Authentication/logout.html" class="button button-secondary btn-outline">
-                    Go to Logout page</a>
+            <div class="acc-settings flex-col">
+                <button class="button button-primary btn-solid logout-btn">Logout</button>
             </div>
         </form>
     </main>

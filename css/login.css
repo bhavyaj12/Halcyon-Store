@@ -47,3 +47,27 @@ position: relative;
     padding: 0;
     font-size: 1.2rem;
 }
+
+.signup-msg .button.button-secondary {
+    margin: 0;
+    padding: 0.4rem;
+    font-size: 0.9rem;
+}
+
+.forgot-pwd-row .button.button-link {
+    font-size: var(--size-1);
+    margin: 0;
+    padding: 0;
+    color: var(--cta-color);
+    text-decoration: none;
+}
+
+.remember-chkbox {
+    display: inline-flex;
+}
+
+.forgot-pwd-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

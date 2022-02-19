@@ -1,0 +1,13 @@
+.button.button-primary.btn-solid.logout-btn { 
+    width: 30%;
+    margin: auto;
+    background: var(--logout-btn);
+    border: var(--logout-btn);
+    padding: 1rem;
+}
+
+.acc-settings {
+    border: 1px solid var(--grey-border);
+    width: 100%;
+    height: 20rem;
+}
