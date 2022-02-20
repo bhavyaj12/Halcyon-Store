@@ -1,3 +1,7 @@
+<div align="center">
+
+<img src="assets/favicon.ico" alt="store logo" width="150px" height="150px" /
+
 # Halcyon-Store
 
 Halcyon Skin Store is your one stop shop for all things skincare! It is made using [Halcyon-UI](https://github.com/bhavyaj12/HalcyonUI). For now these are sample screens which will later be refactored and made into a React Application.
