@@ -1,8 +1,4 @@
-    <div align="center">
-
-<img src="assets/favicon.ico" alt="store logo" width="150px" height="150px" /
-     
-     </div>
+![Optional Text](/assets/favicon.ico)
 
 # Halcyon-Store
 
