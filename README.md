@@ -1,4 +1,4 @@
-![Optional Text](/assets/favicon.ico)
+<img src="/assets/android-chrome-192x192.png" width="75" height="75">
 
 # Halcyon-Store
 
