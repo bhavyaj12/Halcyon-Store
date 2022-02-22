@@ -23,6 +23,10 @@ Insert gif or link to demo
 - [Login Page](https://halcyon-skin-store.netlify.app/authentication/login)
 - [Logout Page](https://halcyon-skin-store.netlify.app/authentication/logout)
 
+## Tech Stack
+- HTML
+- CSS
+
 ## Run Locally
 
 Clone the project
@@ -31,13 +35,18 @@ Clone the project
   git clone https://github.com/bhavyaj12/Halcyon-Store.git
 ```
 
+## Contribute!
+- This project is meant to be open source! Do feel free to add bugs and fork the repo for contribution. 
+- Liked the project? Do please ⭐ it :)
+
 ## Authors
 
 - [@bhavyaj12](https://github.com/bhavyaj12)
 
 
 ## 🔗 Links
+- Have a job/internship/project opportunity or want to talk about photography, gaming, books, travel or movies and tv-shows? Ping me here:-
 
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/bhavzlearn) 
+    [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/bhavzlearn) 
 
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bhavya-joshi-438178184)
+    [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bhavya-joshi-438178184)
