@@ -9,7 +9,7 @@ Halcyon Skin Store is your one stop shop for all things skincare! It is made usi
 
 ## Preview
 
-Insert gif or link to demo
+https://user-images.githubusercontent.com/59730227/155201463-1e1cea66-7c36-4c80-8924-750618b75cc2.mp4
 
 
 ## P0 Screens
