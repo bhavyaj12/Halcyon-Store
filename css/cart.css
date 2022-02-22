@@ -6,6 +6,10 @@
     margin: 0 auto;
 }
 
+.store-nav-bar .store-nav .fas.icon-active {
+    color: var(--cta-color);
+}
+
 .cart-cards-container .card.card-hz .hz-card-img {
     max-width: 15rem;
     height: 22rem;
