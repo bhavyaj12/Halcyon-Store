@@ -7,6 +7,10 @@
     margin: auto;
 }
 
+.store-nav-bar .store-nav .fas.icon-active {
+    color: var(--cta-color);
+}
+
 .wishlist-container .card.card-vertical {
     background-color: var(--white-bg);
     max-width: 30rem;
